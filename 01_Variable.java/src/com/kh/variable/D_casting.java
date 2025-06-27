@@ -112,8 +112,37 @@ public class D_casting {
 	}
 	
 	
+	public void method2(){
+		int a = 10;
+		int b = ++a; //11
+		
+		System.out.printf("a : %d, b: %d\n", a, b);
+		
+		int c = 10;
+		int d = c++;
+		System.out.printf("c : %d, d:%d\n", c, d);
+		//===========================================================
+		
+		int num = 20;
+		System.out.println("현재num :" + num);
+		System.out.println("++num :" + ++num);
+		System.out.println("num++ :" + num++);
+		System.out.println("--num : " + --num);
+		System.out.println("num-- : " + num--);
+		System.out.println("최종num:" + num);
+		
+	}
 	
-	
+	public void method3() {
+		int num1 = 20;
+		int result = ++num1 *3;
+		System.out.printf("num1: %d, result1:%d\n", num1, result);
+		
+		int num2 = 20;
+		int result2 = num2++ *3;
+		System.out.printf("num2: %d, result2:%d\n", num2, result2);
+		
+	}
 	
 	
 	

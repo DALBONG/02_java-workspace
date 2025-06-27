@@ -12,18 +12,20 @@ public class Run {
 //		A_variable a = new A_variable();
 //		a.printVariable();
 //		a.declareVariable();
-		B_KeyboardInput b = new B_KeyboardInput();
-		b.inputTest1();
-		b.inputTest2();
-		b.inputTest3();
-		b.inputTest4();
-		b.charAtTest();
+//		B_KeyboardInput b = new B_KeyboardInput();
+//		b.inputTest1();
+//		b.inputTest2();
+//		b.inputTest3();
+//		b.inputTest4();
+//		b.charAtTest();
 //		C_Printf c = new C_Printf();
 //		c.printfTest();
-//		D_casting d = new D_casting();
+		D_casting d = new D_casting();
 //		d.autoCasting();
 //		d.forceCasting();
 //		d.calScore();
+//		d.method2();
+		d.method3();
 	}
 
 }

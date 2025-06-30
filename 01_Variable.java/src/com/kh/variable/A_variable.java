@@ -62,8 +62,8 @@ public class A_variable {
 			// 2_1. 정수형 (소수점x)
 				byte bNum; // 1byte(-128~127)
 				short sNum = 1000; // 2byte
-				int	iNum = 10000; // 4byte. 정수형의 기본 자료형
-				long lNum = 100000; // 8byte.
+				int	iNum = 1000000000; // 4byte. 정수형의 기본 자료형
+				long lNum = 100000000000000000L; // 8byte.
 				
 			// 2_2. 실수형 (소수점o)
 				float fNum = 0.0f; // 4byte => 소수점 7자리 까지 표현 가능
@@ -71,10 +71,10 @@ public class A_variable {
 				
 			// 3. 문자형
 			// 3_1.문자 
-				char ch = 'a'; // 2byte : ' '
+				char ch = '달'; // 2byte : ' '
 				
 			//3_2. 문자열
-				String str = "abc"; //참조형
+				String str = "dalbong"; //참조형
 				
 				System.out.println("sNum : " + sNum);
 				System.out.println("iNum : " + iNum);
@@ -87,7 +87,7 @@ public class A_variable {
 			// 상수의 선언
 			// [표현법] : final 자료형 상수이름(대문자)
 				final int AGE = 10;
-				System.out.println("age:"+AGE);
+				System.out.println("age:"+ AGE);
 				   // AGE = 15; 상수는 값의 변경이 불가.
 				System.out.println("파이:" + Math.PI);
 					// 파이 : 대보적인 상수의 예시

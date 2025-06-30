@@ -73,7 +73,7 @@ public class B_While {
 		while(i < str.length()){
 			System.out.print(str.charAt(i));
 			i++;
-		}-
+		}
 
 		
 	}

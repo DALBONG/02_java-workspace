@@ -40,7 +40,7 @@ public class D_casting {
 		
 		// 2. int(4byte) => long(8byte)
 		int i3 = 1000;
-		long l3 = /*[(long)]*/i3;
+		long l3 = (long)i3;
 		
 		// 3. float(4byte) => double(8byte)
 		float f4 = 1.0f;
@@ -57,7 +57,7 @@ public class D_casting {
 		int num = 'C';
 		System.out.println("num:" + num);
 		
-		char ch = 65535;
+		char ch = 254;
 		System.out.println("ch:" + ch);
 		/*
 		 각 문자들마다 고유한 숫자가 지정되어 있기 때문에

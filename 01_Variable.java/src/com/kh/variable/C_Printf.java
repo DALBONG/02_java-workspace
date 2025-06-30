@@ -18,16 +18,16 @@ public class C_Printf {
 	public void printfTest() {
 		int iNum1 = 10;
 		int iNum2 = 20;
-		System.out.println(iNum1 + " " + iNum2);
-		System.out.printf("%d %d",iNum1, iNum2);
-		System.out.println();
+//		System.out.println(iNum1 + " " + iNum2);
+//		System.out.printf("%d %d",iNum1, iNum2);
+//		System.out.println();
 		
 			// 10 20%
-		System.out.printf("%d %d%%", iNum1, iNum2);
-		System.out.println();
-		
-		System.out.printf("%d %d", iNum1, iNum2, 30); //뒤에거 30은 무시.
-		System.out.println();
+//		System.out.printf("%d %d%%", iNum1, iNum2);
+//		System.out.println();
+//		
+//		System.out.printf("%d %d", iNum1, iNum2, 30); //뒤에거 30은 무시.
+//		System.out.println();
 		
 		double dNum1 = 1.4561254563;
 		double dNum2 = 4.56;

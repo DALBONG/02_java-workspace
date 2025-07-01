@@ -23,9 +23,9 @@ public class Run {
 		D_casting d = new D_casting();
 //		d.autoCasting();
 //		d.forceCasting();
-		d.calScore();
+//		d.calScore();
 //		d.method2();
-// 		d.method3();
+ 		d.method3();
 	}
 
 }

@@ -83,12 +83,13 @@ public class AbstractionRun {
 			// 자신의 이름으로 학생 객체 만들기.
 			// 값 대입
 			// 김ㅇㅇ 님의 나이는 ㅇㅇ이고, 키는 ㅇㅇ 입니다.
-			
+		
 		Student kim = new Student();
 			kim.name = "kiseokkim";
 			kim.age = 33;
 			kim.height = 177.8;
 			System.out.print(kim.name + "님의 나이는" + kim.age + "이고, 키는 " + kim.height + "입니다.");
+	
 		/*
 		 필드를 public 접근 제한자로 작성.
 		 	-> 필드에 직접 접근해서 값 대입하거나 값을 가져올 수 있음.

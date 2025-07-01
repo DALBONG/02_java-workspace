@@ -43,7 +43,7 @@ public class A_Array {
 		arr[4] = 4;
 		*/
 		for(int i=0; i<5; i++) {
-			System.out.println(arr[i]);
+			System.out.println(i + 1);
 		}
 		System.out.println(arr); //arr이라는 박스의 "주소값"이 담겨있음
 	}
@@ -68,7 +68,7 @@ public class A_Array {
 		double[] dArr = new double[4];  //0~3번 인덱스
 
 		for(int i=0; i<4; i++) {
-			System.out.println(dArr[i]);
+			System.out.println(iArr[i]);
 		}
 			/*
 			 인덱스에 값 초기화를 하지 않아도 값들이 담겨있음. 
@@ -242,9 +242,6 @@ public class A_Array {
 			}
 		}
 		System.out.println("해당 배열의 짝수의 합 : " + sum);
-		
-		
-	
 		
 		
 	}

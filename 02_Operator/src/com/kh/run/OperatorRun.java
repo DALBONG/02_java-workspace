@@ -16,12 +16,12 @@ public class OperatorRun {
 		B_InDecrease b = new B_InDecrease();
 //		b.method1();
 		C_Arithmetic c = new C_Arithmetic();
-		c.method1();
+//		c.method1();
 		D_Comparison d = new D_Comparison();
 //		d.method1();
 //		d.method2();
 		E_Logical e = new E_Logical();
-//		e.method1();
+		e.method1();
 //		e.method2();
 //		e.method3();
 //		e.method4();

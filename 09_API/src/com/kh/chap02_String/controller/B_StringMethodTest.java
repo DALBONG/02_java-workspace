@@ -36,7 +36,7 @@ public class B_StringMethodTest {
 		// 5. 문자열.length() : int
 		System.out.println("str1의 길이 : " + str1.length());
 		
-		// 6. 문자열.substring (int beginIndex) : String
+		// 6. 문자열.substring (int beginIndex) : String -> 추출 
 		  	// 문자열.substring(int beginIndex, int endIndex) : String
 		System.out.println(str1.substring(3));
 		System.out.println(str1.substring(3,7));
@@ -51,6 +51,9 @@ public class B_StringMethodTest {
 		System.out.println("str0에 ! 포함? : " + str0.contains("!"));
 		
 		// 7. 문자열.replace(char oldChar, char newChar) : String
+		String str4 = str1.replace('l', 'c');
+	    System.out.println(str4);
+	    System.out.println(str1);
 		
 		// 8. 문자열.toUpperCase() : String   / toLowerCase() : String
 		String str5 = str1.toUpperCase();

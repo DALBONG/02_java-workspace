@@ -26,17 +26,21 @@ public class User {
 	*/
 	
 	//기본생성자
-	public User() {
-		
-	}
+	public User() {}
 	
 	//매개변수 생성자
 	public User(String userId, String userPwd, String userName) {
-		/*
+		
 		this.userId = userId;
 		this.userPwd = userPwd;
 		this.userName = userName;
-		*/
+		
+		
+		
+	}
+	
+	public User(String userId, String userPwd, String userName, int userAge, char gender) {
+		
 		this(userId, userPwd, userName);
 		/*
 		 위와 같이 중복되는 동일한 내용의 생성자가 있을 경우
@@ -47,14 +51,8 @@ public class User {
 		this.userAge = userAge;
 		this.gender = gender;
 		
-	}
-	
-	public User(String userId, String userPwd, String userName, int userAge, char gender) {
-		this.userId = userId;
-		this.userPwd = userPwd;
-		this.userName = userName;
-		this.userAge = userAge;
-		this.gender = gender;
+		
+		
 	}
 	
 	

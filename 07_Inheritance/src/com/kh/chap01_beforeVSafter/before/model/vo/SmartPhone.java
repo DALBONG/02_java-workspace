@@ -54,11 +54,11 @@ public class SmartPhone {
 		return mobileAgency;
 	}
 	public void setMobileAgency(String mobileAgency) {
-		this.inch = inch;
+		this.mobileAgency = mobileAgency;
 	}
 	
 	public String information() {
-		return "brand : " + brand + "pCode :" + pCode + "pName :" + pName + "price" + price + "inch" + inch; 
+		return "brand : " + brand + "pCode :" + pCode + "pName :" + pName + "price" + price + "inch" + mobileAgency; 
 	}
 	
 	

@@ -19,10 +19,9 @@ public class TokenController {
 	public String firstCap(String input) {
 		  // 매개변수로 받아온 input의 첫 번째 글자만 대문자로 바꾼 문자열 반환 
 
-		System.out.println(input);
-		char[] fc = input.toCharArray();
-		System.out.println(fc[0]);
-		String uf = (fc[0]).toUpperCase();
+		//System.out.println(input);
+		int li = input.length(); 
+		System.out.println("첫 글자 대문자 : " + input.substring(0,1).toUpperCase() + input.substring(1, li));
 		
 		return "";
 		

@@ -12,9 +12,9 @@ public class StringRun {
 //		a.method1();
 //		a.method2();
 		B_StringMethodTest b = new B_StringMethodTest();
-//		b.method3();
+		b.method3();
 		C_StringTokenizer c = new C_StringTokenizer();
-		c.method();
+//		c.method();
 	}
 
 }

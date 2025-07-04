@@ -15,9 +15,11 @@ public class TokenMenu {
 		int menu = 0;
 		System.out.print("1. 지정 문자열 :  ");
 		menu = sc.nextInt();
+		sc.nextLine();
 		//System.out.println(menu);
 		System.out.print("2. 입력 문자열:  ");
 		menu = sc.nextInt();
+		sc.nextLine();
 		//System.out.println(menu);
 		//System.out.println("3. 프로그램 끝내기");
 		
@@ -47,16 +49,18 @@ public class TokenMenu {
 	}
 	
 	public void inputMenu() {
+		
+		System.out.print("문자열을 입력하세요 : ");
+		String str2 = sc.nextLine();
+		System.out.println(str2); 
+		tc.firstCap(str2);
 		// tc에 firstCap()로 입력 받은 문자열을 넘기고 반환 값 출력 
 		
 		
 		// tc에 findChar()로 위에 입력 받은 문자열과 방금 받은 문자를 인자로 넘겨 
 		// 반환 값 출력
 
-		System.out.print("문자열을 입력하세요");
-		String str2 = sc.nextLine();
-		System.out.println(str2); //출력이 왜?
-		
+	
 		
 	
 	}

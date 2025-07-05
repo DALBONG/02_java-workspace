@@ -17,6 +17,11 @@ public class Desktop {
 		this.price = price;
 		this.allInOne = allInOne;
 	}
+
+	public char[] information() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 	
 }

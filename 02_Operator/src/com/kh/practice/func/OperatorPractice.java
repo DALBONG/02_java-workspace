@@ -18,7 +18,8 @@ public class OperatorPractice {
 		}
 	}
 	
-	
+	//=============================================================================
+
 	public void practice2() {
 		
 		System.out.println("정수 : ");
@@ -32,7 +33,8 @@ public class OperatorPractice {
 		}
 	}
 
-	
+	//=============================================================================
+
 	public void practice3() {
 		
 		System.out.println("정수 : ");
@@ -45,7 +47,8 @@ public class OperatorPractice {
 		}
 	}
 	
-	
+	//=============================================================================
+
 	public void practice4(){
 		
 		System.out.println("인원수 : ");
@@ -57,7 +60,8 @@ public class OperatorPractice {
 		System.out.println("남는 사탕 개수 : " + (num4_2 % num4_1));
 	}
 	
-	
+	//=============================================================================
+
 	
 	public void practice5() {
 		System.out.println("이름 : ");
@@ -88,7 +92,6 @@ public class OperatorPractice {
 		*/
 		
 		//gender 결과값을 담을 변수 생성
-		
 		if(gender == 'm' || gender == 'M') {
 			System.out.println("남학생");
 			}else if (gender == 'f' || gender == 'F'){
@@ -100,10 +103,52 @@ public class OperatorPractice {
 
 		System.out.printf("%d학년 %d반 %d번 %s %s의 성적은 %.2f이다.\n", grade , Class, num5, name, genderstr, score);
 		
+	}	
+		//=============================================================================
 		
+	public void practice6() {
+			
+			
+		//3항 연산자 중첩
+		System.out.println("나이 : ");
+		int num6 = sc.nextInt();
+		sc.nextLine();
 		
+		String result = (num6 > 19) ? "성인" : (num6 < 13) ? "어린이" : "청소년";
+		System.out.println(result);
 		
+			
 	}
+	
+	//===========================================================
+	
+	public void practice7() {
+		
+	System.out.println("국어 : ");
+	int kor = sc.nextInt();
+	sc.nextLine();
+	System.out.println("영어 : ");
+	int elg = sc.nextInt();
+	sc.nextLine();
+	System.out.println("수학 : ");
+	int mat = sc.nextInt();
+	sc.nextLine();
+		
+	System.out.println((kor + elg + mat));
+	int sum = (kor + elg + mat);
+	System.out.println(sum/3);
+	int avr = (sum/3);
+	
+		// if문? if문을 쓴다면 조건식을 어떻게? 각 점수를 배열에 담고? 
+		
+		
+
+	
+	}
+		
+		
+		
+	
 
 	
 	

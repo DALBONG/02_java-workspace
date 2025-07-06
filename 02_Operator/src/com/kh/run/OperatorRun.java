@@ -21,7 +21,7 @@ public class OperatorRun {
 //		d.method1();
 //		d.method2();
 		E_Logical e = new E_Logical();
-		e.method1();
+//		e.method1();
 //		e.method2();
 //		e.method3();
 //		e.method4();
@@ -30,7 +30,7 @@ public class OperatorRun {
 		G_Triple g = new G_Triple();
 //		g.method1();
 //		g.method2();
-//		g.method3();
+		g.method3();
 //		g.method6();
 	}
 

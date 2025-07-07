@@ -26,11 +26,11 @@ public class OperatorRun {
 //		e.method3();
 //		e.method4();
 		F_Compound f = new F_Compound();
-//		f.method1();
+		f.method1();
 		G_Triple g = new G_Triple();
 //		g.method1();
 //		g.method2();
-		g.method3();
+//		g.method3();
 //		g.method6();
 	}
 

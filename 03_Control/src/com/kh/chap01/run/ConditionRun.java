@@ -8,7 +8,7 @@ public class ConditionRun {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-//		A_If a = new A_If();
+		A_If a = new A_If();
 //		a.method1();
 //		a.method2();
 //		a.method3();
@@ -19,8 +19,8 @@ public class ConditionRun {
 		B_Switch b = new B_Switch();
 //		b.method1();
 //		b.method2();
-//		b.method3();
-		b.method4();
+		b.method3();
+//		b.method4();
 	}
 
 }

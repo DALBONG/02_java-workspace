@@ -92,6 +92,7 @@ public class OperatorPractice {
 		*/
 		
 		//gender 결과값을 담을 변수 생성
+		String genderstr = " "; // 출력될 성별 문자열 
 		if(gender == 'm' || gender == 'M') {
 			System.out.println("남학생");
 			}else if (gender == 'f' || gender == 'F'){
@@ -99,9 +100,8 @@ public class OperatorPractice {
 			}else {
 				System.out.println("잘못 입력했어!");
 			}
-		String genderstr = " "; // 출력될 성별 문자열 
 
-		System.out.printf("%d학년 %d반 %d번 %s %s의 성적은 %.2f이다.\n", grade , Class, num5, name, genderstr, score);
+		System.out.printf("%d학년 %d반 %d번 %s %s의 성적은 %.2f이다.\n", grade , Class, num5, name, gender, score);
 		
 	}	
 		//=============================================================================
@@ -134,19 +134,122 @@ public class OperatorPractice {
 	int mat = sc.nextInt();
 	sc.nextLine();
 		
-	System.out.println((kor + elg + mat));
 	int sum = (kor + elg + mat);
-	System.out.println(sum/3);
+	System.out.println("합계 : " + sum);
 	int avr = (sum/3);
+	System.out.println(" 평균 : " + avr);
 	
-		// if문? if문을 쓴다면 조건식을 어떻게? 각 점수를 배열에 담고? 
+	if(avr >= 60 && kor >= 40 && elg >= 40 && mat >= 40) {
+		System.out.println("합격");
+	}else {
+		System.out.println("불합격");
+	}
+	}
+		
+	//========================================================
+	
+	public void practice8() {
+		System.out.println("주민번호를 입력하세요(-포함)");
+		// String -> char , 비교연산자
+	
+		char str = sc.nextLine().charAt(7);
+		if(str == '1' || str == '3' ) {
+			System.out.println("남자");
+		}else if(str == '2' || str == '4') {
+			System.out.println("여자");
+		}else {
+			System.out.println("외계인");
+		}
+		
+	}	
+	//=======================================================
+	public void practice9() {
+		
+		System.out.println("정수 1 : ");
+		int num1 = sc.nextInt();
+		System.out.println("정수 2(정수 1보다 큰 수 입력) : ");
+		int num2 = sc.nextInt();
+		System.out.println("다른 정수 : ");
+		int num3 = sc.nextInt();
+		
+		/*
+		if(num1 >= num3) {
+			System.out.println("true");
+		}else if(num2 < num3) {
+			System.out.println("true");
+		}else {
+			System.out.println("false");
+		}
+		*/
+		
+		boolean isTrue;
+		isTrue = num1 >= num3 || num2 < num3;
+		System.out.println(isTrue);
+	}
+	
+	//=====================================================
+	
+	public void practice10() {
+		
+		System.out.println("입력1 : ");
+		int num1 = sc.nextInt();
+		System.out.println("입력2 : ");
+		int num2 = sc.nextInt();
+		System.out.println("입력3 : ");
+		int num3 = sc.nextInt();
+		
+		boolean isTrue;
+		isTrue = num1 == num2 && num2 == num3;
+		System.out.println(isTrue);
+	}	
+	//=========================================================
+	
+	public void practice11() {
+		
+		System.out.println("A사원의 연봉 : ");
+		int pay1 = sc.nextInt();
+		double Apay = ((double)pay1+(pay1*0.4));
+		sc.nextLine();
+		
+		System.out.println("B사원의 연봉 : ");
+		int pay2 = sc.nextInt();
+		double Bpay = ((double)pay2*1);
+		sc.nextLine();
+		
+		System.out.println("C사원의 연봉 : ");
+		int pay3 = sc.nextInt();
+		double Cpay = ((double)pay3+(pay3*0.15));
+		sc.nextLine();
+		
+		System.out.println("A사원 연봉/연봉+a : " + pay1 + "/"+ Apay);
+		if(Apay >= 3000) {
+			System.out.println("3000 이상");
+		}else {
+			System.out.println("3000 미만");
+		}
+		System.out.println("B사원 연봉/연봉+a : " + pay2 + "/"+ Bpay);
+		if(Bpay >= 3000) {
+			System.out.println("3000 이상");
+		}else {
+			System.out.println("3000 미만");
+		}
+		System.out.println("C사원 연봉/연봉+a : " + pay3 + "/"+ Cpay);
+		if(Cpay >= 3000) {
+			System.out.println("3000 이상");
+		}else {
+			System.out.println("3000 미만");
+		}
 		
 		
 
 	
+		
+		
 	}
 		
 		
+		
+	
 		
 	
 

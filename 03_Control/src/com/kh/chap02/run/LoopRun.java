@@ -10,7 +10,7 @@ public class LoopRun {
 		// TODO Auto-generated method stub
 		
 	A_For a = new A_For();
-//	a.method1();
+	a.method1();
 //	a.method2();
 //	a.method3();
 //	a.method4();
@@ -23,7 +23,7 @@ public class LoopRun {
 //	a.method11();
 //	a.method12();
 //	a.method13();
-	a.method14();
+//	a.method14();
 	B_While b = new B_While();
 //	b.method1();
 //	b.method2();

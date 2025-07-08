@@ -15,6 +15,8 @@ public class CompExample {
 		case 1 :
 		}
 		
+		//(num %2 == 0); 짝수 
+		
 		
 	}
 	

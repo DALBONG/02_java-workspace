@@ -31,12 +31,14 @@ public class BookController implements BookManager {
 
 	@Override
 	public ArrayList<Book> searchBookByTitle(String title) {
-		ArrayList<Book> searchTitle = new ArrayList<Book>();
+		ArrayList<Book> result = new ArrayList<Book>();
 		for(Book b : bookList) {
-			
+			if(b.getTitle().contains(title)) {
+			result.add(b);
+			}
 		}
 		
-		return null;
+		return result;
 	}
 
 	@Override
@@ -63,6 +65,13 @@ public class BookController implements BookManager {
 
 	@Override
 	public ArrayList<Book> magazineOfThisYearInfo(int year) {
+		ArrayList<Book> result = new ArrayList<Book>();
+		for(Book b : bookList) {
+			if(b instanceof Magazine) {
+				
+			}
+		}
+		
 		return null;
 	}
 

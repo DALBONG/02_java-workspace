@@ -156,12 +156,26 @@ public class LibraryRun {
 				} else if (search == 2) { // 책 제목으로 책 찾기
 					System.out.print("책 제목을 입력하세요 : ");
 					title = sc.nextLine();
-					//bc.searchBookByTitle()
-				} else if (search == 3) { // 출간연도로 잡지 찾기
+					
+					ArrayList<Book> result = bc.searchBookByTitle(title);
+					if(!result.isEmpty()) {
+						for(Book b : result) {	
+						}
+					}else {
+						System.out.println("[ ]");;
+					}
+				}else if (search == 3) { // 출간연도로 잡지 찾기
 					System.out.print("출간연도를 입력하세요 : (올해 --> 2022) : ");
 					int year = sc.nextInt();
-					//magazineOfThisYearInfo()
-				} else if (search == 4) { // 4. 출판사로 책 찾기
+					sc.nextLine();
+					
+					ArrayList<Book> result = bc.magazineOfThisYearInfo(year);
+					if(!result.isEmpty()) {
+						
+					}
+				} 
+				
+				else if (search == 4) { // 4. 출판사로 책 찾기
 					System.out.print("출판사를 입력하세요 : ");
 					publisher = sc.nextLine();
 					//bc.searchBookByPublisher()

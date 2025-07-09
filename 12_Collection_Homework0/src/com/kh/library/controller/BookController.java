@@ -21,11 +21,21 @@ public class BookController implements BookManager {
 	@Override
 	public Book searchBookBybNo(String bNo) { 
 		ArrayList<Book> searchbNo = new ArrayList<Book>();
+		for(Book b : bookList) {	 // 순차적 접근할 값을 담을 변수 : 순차적으로 접근할 배열 bookList
+			if(b.getbNo().equals(bNo)) {
+			return b;
+			}
+		}
 		return null;
 	}
 
 	@Override
 	public ArrayList<Book> searchBookByTitle(String title) {
+		ArrayList<Book> searchTitle = new ArrayList<Book>();
+		for(Book b : bookList) {
+			
+		}
+		
 		return null;
 	}
 

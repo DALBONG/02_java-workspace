@@ -146,13 +146,12 @@ public class LibraryRun {
 				if (search == 1) { // bNo으로 책 찾기
 					System.out.print("bNo을 입력하세요 : ");
 					bNo = sc.nextLine();
-					for(int i=0; i<bs.size(); i++) {
-						ArrayList<Book> searchbNo = new ArrayList<Book>();
-						if(bs.get(i).getbNo().equals(bNo)) {
-							searchbNo.add(bs.get(i));
-							bc.searchBookBybNo(bNo);	
-						}
-						return ;
+					
+					Book searchbNo = bc.searchBookBybNo(bNo);
+					if(searchbNo != null) {
+						System.out.println(searchbNo);
+					}else {
+						return;
 					}
 				} else if (search == 2) { // 책 제목으로 책 찾기
 					System.out.print("책 제목을 입력하세요 : ");

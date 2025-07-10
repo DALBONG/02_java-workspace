@@ -21,7 +21,37 @@ public class C_Practice {
 		for(int i=0; i<arr.length; i++) {
 			System.out.println(arr[i]);
 		}
+	}
+	
+	
+	public void practice2() {
 		
+		int[] arr = {9, 3, 4, 5, 6, 6};
+		
+		System.out.println(arr);
+			
+	}
+	
+	
+	public void practice3() {
+		
+		String[] arr = {"김달봉", "달봉이", "윤해피"};
+		
+		for(int i=0; i<arr.length; i++) {
+			System.out.println(arr[i]);
+		}
+	}
+	
+	
+	public void practice4() {
+		
+		int[] arr = {5, 10, 7, 3, 8};	
+		int sum = 0;
+		
+		for(int i=0; i<=4; i++) {
+			sum += arr[i];
+		}
+		System.out.println(sum);
 		
 	}
 	

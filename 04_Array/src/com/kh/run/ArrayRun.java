@@ -29,7 +29,10 @@ public class ArrayRun {
 		//b.method4();
 //		b.method5();
 		C_Practice c = new C_Practice();
-		c.practice1();
+//		c.practice1();
+//		c.practice2();
+//		c.practice3();
+		c.practice4();
 		
 		
 		

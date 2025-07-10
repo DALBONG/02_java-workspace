@@ -45,6 +45,18 @@ public class B_Continue {
 	}
 	
 	
+	public void method3() {
+		// 13까지 숫자에서 짝수는 출력x
+		for(int i=0; i<=13; i++) {
+			if (i % 2 == 0) {
+				continue;
+			}
+			System.out.println(i);
+
+		}
+
+		
+	}
 	
 	
 	

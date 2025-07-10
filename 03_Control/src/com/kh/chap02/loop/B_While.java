@@ -33,7 +33,7 @@ public class B_While {
 	}
 	
 	
-	/*
+	
 	public void method3() {
 			//1부터 100까지 랜덤값의 총 합계
 		int random = (int)(Math.random() *100 + 1);
@@ -45,7 +45,7 @@ public class B_While {
 		} i++;
 		System.out.println("1부터 " + random + "까지의 합" + sum);	
 	}
-	*/
+	
 	
 	
 	public void method4() {
